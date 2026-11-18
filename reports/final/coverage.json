@@ -1,0 +1,347 @@
+{
+  "per_horizon": [
+    {
+      "delay_hours": 0,
+      "horizon": 1,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8371,
+      "fraction": 0.9555936073059361
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 2,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8368,
+      "fraction": 0.9552511415525115
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 3,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8365,
+      "fraction": 0.9549086757990868
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 4,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8362,
+      "fraction": 0.9545662100456621
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 5,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8359,
+      "fraction": 0.9542237442922374
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 6,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8356,
+      "fraction": 0.9538812785388128
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 7,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8353,
+      "fraction": 0.9535388127853881
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 8,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8350,
+      "fraction": 0.9531963470319634
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 9,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8347,
+      "fraction": 0.9528538812785388
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 10,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8344,
+      "fraction": 0.9525114155251142
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 11,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8341,
+      "fraction": 0.9521689497716895
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 12,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8338,
+      "fraction": 0.9518264840182649
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 13,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8335,
+      "fraction": 0.9514840182648402
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 14,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8332,
+      "fraction": 0.9511415525114155
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 15,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8329,
+      "fraction": 0.9507990867579909
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 16,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8326,
+      "fraction": 0.9504566210045662
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 17,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8323,
+      "fraction": 0.9501141552511415
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 18,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8320,
+      "fraction": 0.9497716894977168
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 19,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8317,
+      "fraction": 0.9494292237442923
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 20,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8314,
+      "fraction": 0.9490867579908676
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 21,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8311,
+      "fraction": 0.9487442922374429
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 22,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8308,
+      "fraction": 0.9484018264840183
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 23,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8305,
+      "fraction": 0.9480593607305936
+    },
+    {
+      "delay_hours": 0,
+      "horizon": 24,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8302,
+      "fraction": 0.9477168949771689
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 1,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8371,
+      "fraction": 0.9555936073059361
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 2,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8368,
+      "fraction": 0.9552511415525115
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 3,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8365,
+      "fraction": 0.9549086757990868
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 4,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8362,
+      "fraction": 0.9545662100456621
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 5,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8359,
+      "fraction": 0.9542237442922374
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 6,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8356,
+      "fraction": 0.9538812785388128
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 7,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8353,
+      "fraction": 0.9535388127853881
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 8,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8350,
+      "fraction": 0.9531963470319634
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 9,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8347,
+      "fraction": 0.9528538812785388
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 10,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8344,
+      "fraction": 0.9525114155251142
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 11,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8341,
+      "fraction": 0.9521689497716895
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 12,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8338,
+      "fraction": 0.9518264840182649
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 13,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8335,
+      "fraction": 0.9514840182648402
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 14,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8332,
+      "fraction": 0.9511415525114155
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 15,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8329,
+      "fraction": 0.9507990867579909
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 16,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8326,
+      "fraction": 0.9504566210045662
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 17,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8323,
+      "fraction": 0.9501141552511415
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 18,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8320,
+      "fraction": 0.9497716894977168
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 19,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8317,
+      "fraction": 0.9494292237442923
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 20,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8314,
+      "fraction": 0.9490867579908676
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 21,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8311,
+      "fraction": 0.9487442922374429
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 22,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8308,
+      "fraction": 0.9484018264840183
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 23,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8305,
+      "fraction": 0.9480593607305936
+    },
+    {
+      "delay_hours": 1,
+      "horizon": 24,
+      "canonical_test_origins": 8760,
+      "evaluated_origins": 8302,
+      "fraction": 0.9477168949771689
+    }
+  ],
+  "common_models": {
+    "model_count": 9,
+    "prediction_rows_before": 3601368,
+    "prediction_rows_common": 3601368,
+    "common_pairs": 400152
+  },
+  "peak_threshold_train_mw": 40503.200000000004
+}

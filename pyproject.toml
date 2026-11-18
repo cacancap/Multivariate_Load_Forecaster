@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multivariate-load-forecaster"
+version = "0.1.0"
+description = "Auditable direct multi-horizon electricity load forecasting"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas>=2.2", "scikit-learn>=1.5", "requests", "pyyaml", "pyarrow", "psutil", "joblib", "matplotlib", "threadpoolctl"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+dashboard = ["streamlit"]
+
+[project.scripts]
+load-forecast = "load_forecaster.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest_tmp"

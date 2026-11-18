@@ -1,0 +1,15 @@
+{
+  "time_basis": "local_clock_unconfirmed_guarded",
+  "weather_join_allowed": false,
+  "grid_hours": 145392,
+  "quarantined_source_rows": 767,
+  "missing_observed_hours": 793,
+  "imputed_input_hours": 1,
+  "blocked_time_hours": 792,
+  "large_jump_hours": 0,
+  "time_convention_evidence": null,
+  "limitations": [
+    "Historical load revisions are not reconstructed.",
+    "Unknown convention: guarded local-clock windows, not a UTC operational replay."
+  ]
+}

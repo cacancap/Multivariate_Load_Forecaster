@@ -1,0 +1,24 @@
+seed: 42
+threads: 4
+source_url: https://raw.githubusercontent.com/archd3sai/Hourly-Energy-Consumption-Prediction/master/PJME_hourly.csv
+timezone: America/New_York
+# unknown uses a guarded local-clock experiment; it NEVER enables weather joining.
+timestamp_convention: unknown
+time_convention_confirmed: false
+train_start: '2014-01-01'
+development_end: '2017-01-01'
+test_end: '2018-01-01'
+horizons: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+representative_horizons: [1, 6, 12, 24]
+n_splits: 5
+validation_hours: 1440
+gap_hours: 24
+max_candidates: 4
+models: [ridge, random_forest, svr, hist_gradient_boosting, ridge_365, random_forest_365]
+weather:
+  latitude: 39.9526
+  longitude: -75.1652
+  model: era5
+  start: '2013-12-01'
+  end: '2017-12-31'
+  hourly: [temperature_2m, relative_humidity_2m, direct_normal_irradiance]

@@ -1,0 +1,69 @@
+{
+  "assessment_scope": "Feasibility judgement, not a claim of production readiness",
+  "source_holdout": "2017; original pre-test model choices unchanged",
+  "high_load_threshold_mw": 40503.200000000004,
+  "high_load_definition": "Observed/predicted load >= training Q90; not an overload/capacity limit",
+  "per_horizon": [
+    {
+      "horizon": 1,
+      "n": 8371,
+      "mape_percent": 0.9444041018317995,
+      "high_load_n": 622,
+      "high_load_mape_percent": 0.9074460708644672,
+      "high_load_recall_percent": 96.78456591639872,
+      "high_load_precision_percent": 97.09677419354838,
+      "high_load_mean_bias_mw": -106.44594241710467,
+      "true_positive": 602,
+      "false_negative": 20,
+      "false_positive": 18
+    },
+    {
+      "horizon": 6,
+      "n": 8356,
+      "mape_percent": 3.3770309136768364,
+      "high_load_n": 622,
+      "high_load_mape_percent": 3.90239226497335,
+      "high_load_recall_percent": 85.20900321543408,
+      "high_load_precision_percent": 84.26073131955485,
+      "high_load_mean_bias_mw": -597.3529922696088,
+      "true_positive": 530,
+      "false_negative": 92,
+      "false_positive": 99
+    },
+    {
+      "horizon": 12,
+      "n": 8338,
+      "mape_percent": 4.69094934818949,
+      "high_load_n": 622,
+      "high_load_mape_percent": 5.735140246421893,
+      "high_load_recall_percent": 73.95498392282958,
+      "high_load_precision_percent": 77.57166947723441,
+      "high_load_mean_bias_mw": -1363.2946151055626,
+      "true_positive": 460,
+      "false_negative": 162,
+      "false_positive": 133
+    },
+    {
+      "horizon": 24,
+      "n": 8302,
+      "mape_percent": 5.841511521602197,
+      "high_load_n": 622,
+      "high_load_mape_percent": 6.877844974984739,
+      "high_load_recall_percent": 69.13183279742765,
+      "high_load_precision_percent": 72.51264755480607,
+      "high_load_mean_bias_mw": -1823.5258064223426,
+      "true_positive": 430,
+      "false_negative": 192,
+      "false_positive": 163
+    }
+  ],
+  "posthoc_baseline_note": "Additional deterministic past-only baselines were evaluated after the main experiment for this assessment. No parameters or thresholds were fitted on test; the selected model and original results were not changed.",
+  "best_additional_baseline_overall_mape_percent": 6.4047407696222844,
+  "relative_improvement_over_best_additional_baseline_percent": 32.62198535950551,
+  "verdict": {
+    "course_project_feasible": true,
+    "general_load_forecasting_value_demonstrated": true,
+    "precise_24h_peak_warning_fully_demonstrated": false,
+    "production_readiness_demonstrated": false
+  }
+}

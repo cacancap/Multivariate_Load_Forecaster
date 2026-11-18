@@ -1,0 +1,12 @@
+{
+  "stage_seconds_sum": 3014.9857416007144,
+  "peak_sampled_stage_rss_mib": 713.46875,
+  "notes": "Resource fields ending _mb in the original recorder use 1024**2 bytes (MiB).",
+  "wall_seconds": 3596.9816722522373,
+  "peak_process_working_set_mib": 1543.19140625,
+  "process_measurement_method": "Sum of observed active time before interruption and recovered holdout; excludes downtime. Peaks are the maximum recorded across both sessions.",
+  "recovered_holdout": true,
+  "frozen_selection_verified": true,
+  "prior_active_seconds_observed": 2986.7444591522217,
+  "recovery_seconds": 610.2372131000157
+}

@@ -1,0 +1,18 @@
+{
+  "python": "3.13.12",
+  "packages": {
+    "pandas": "3.0.2",
+    "numpy": "2.4.4",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0",
+    "requests": "2.33.1",
+    "pyyaml": "6.0.3",
+    "pyarrow": "23.0.1",
+    "joblib": "1.5.3",
+    "psutil": "7.1.3",
+    "matplotlib": "3.11.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "core_versions_match_original_cv": true,
+  "scope": "holdout recovery environment"
+}

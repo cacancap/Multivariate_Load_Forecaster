@@ -1,0 +1,30 @@
+[
+  {
+    "horizon": 1,
+    "fold": 0,
+    "saved_mape_percent": 0.7948446439564131,
+    "recomputed_mape_percent": 0.7948446439564131,
+    "difference_percentage_points": 0.0
+  },
+  {
+    "horizon": 24,
+    "fold": 0,
+    "saved_mape_percent": 5.408383983252973,
+    "recomputed_mape_percent": 5.408383983252973,
+    "difference_percentage_points": 0.0
+  },
+  {
+    "horizon": 1,
+    "fold": 4,
+    "saved_mape_percent": 0.8276160312949397,
+    "recomputed_mape_percent": 0.8276160312949397,
+    "difference_percentage_points": 0.0
+  },
+  {
+    "horizon": 24,
+    "fold": 4,
+    "saved_mape_percent": 5.07760818657882,
+    "recomputed_mape_percent": 5.07760818657882,
+    "difference_percentage_points": 0.0
+  }
+]

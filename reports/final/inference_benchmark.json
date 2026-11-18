@@ -1,0 +1,11 @@
+{
+  "model": "weighted_ensemble",
+  "horizons": 24,
+  "trials_seconds": [
+    1.587809999997262,
+    1.753870399959851,
+    1.6778284999891184
+  ],
+  "median_seconds": 1.6778284999891184,
+  "scope": "load already in memory; includes loading both component model bundles and building causal features; file-system cache may be warm"
+}

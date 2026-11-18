@@ -1,0 +1,10 @@
+{
+  "rows": 145392,
+  "horizon": 24,
+  "repetitions": 5,
+  "original_median_seconds": 0.06520760001149029,
+  "rolling_median_seconds": 0.00497079998604022,
+  "equivalent_on_complete_windows": true,
+  "cached_mask_bytes": 145392,
+  "scope": "calendar-mask calculation only, not whole training speed"
+}

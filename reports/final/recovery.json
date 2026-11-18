@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "frozen_sha256": {
+    "config.json": "b71291dab740877035b8e69ab0a686ae1bb658223ecdbe75c278f914044db959",
+    "selected_models.json": "0964ba6e6d0e7e8fc0de0b9ce630664cb1771f5d920a4dde682883989d563247",
+    "ensemble_selection.json": "86ec66076c57997bc48eebe86f5bd8159b6d016fbf4e8c5034d611269f9c3f5b",
+    "input_provenance.json": "b04ae37f2f0a11da0be1c8258a56efa6259ca06813f17bab777f5cc6b9d1bcd2",
+    "HOLDOUT_STARTED.json": "ab21b39bdbd51708d7d7b88ec2cdf3bd88b909b59a9c1fea470e8dd1cb5115d0",
+    "validation_predictions.parquet": "2313256eafd4fe9b9f2f95b973323fa4431df4ca1908ccb00ef1207acfd26e9a",
+    "feature_ablation.csv": "62694de30a62b81843d161af68e5b3ebf00dbfc7485b9dff109a4eb090fc8dce"
+  },
+  "selection_rerun": false,
+  "contract_unchanged": true
+}

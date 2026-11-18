@@ -1,0 +1,14 @@
+{
+  "captured_at": "report export, after numerical replay checks",
+  "files": {
+    "src\\load_forecaster\\acquisition.py": "7bbdf8c6012932a12a7ecfc272107b12dac5edf6bf6570b5ef798a7079b929d8",
+    "src\\load_forecaster\\cli.py": "b968451a07485500885ac4f475df513f13017f13a9686466d42b0037968f4810",
+    "src\\load_forecaster\\evaluation.py": "f905cd14a4dca7c3e7296e4d288a8ac66e8d23bad0991b8eca51b8567eec80d2",
+    "src\\load_forecaster\\experiment.py": "f8be6bfd7570bd780ff04e98eed1669d9c756d9509b6c2e8d6939023182badd0",
+    "src\\load_forecaster\\features.py": "659906a69306464837bbf2ff907645aa309cd04132db5d6a0757b39ced708f96",
+    "src\\load_forecaster\\models.py": "dbb36a74fe3881c1e0f1c6c79cbc89ff0f2fc4f65474d0bbad602be9035f2a19",
+    "src\\load_forecaster\\resources.py": "f66e5d961cc8e03661487089f3a7e970a4d1c598e632dbabd6b7b6dc2d4d758f",
+    "src\\load_forecaster\\temporal.py": "54d352531d9b342bf45d9692d8e057a6490e246995d30aa4a5e4d1644fc2af8a",
+    "src\\load_forecaster\\__init__.py": "e893fb30ce373deefbf81f18e4aec328d6434f87770387e97c434fbda4381b9c"
+  }
+}

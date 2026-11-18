@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "delay_hours": 0,
+      "origin_time": "2017-07-02 00:00:00",
+      "horizon_count": 24,
+      "model": "weighted_ensemble",
+      "maximum_reload_difference_mw": 0.0011718749956344254,
+      "reload_matches_holdout": true,
+      "future_load_invariant": true
+    },
+    {
+      "delay_hours": 1,
+      "origin_time": "2017-07-02 00:00:00",
+      "horizon_count": 24,
+      "model": "weighted_ensemble",
+      "maximum_reload_difference_mw": 0.001171875002910383,
+      "reload_matches_holdout": true,
+      "future_load_invariant": true
+    }
+  ]
+}

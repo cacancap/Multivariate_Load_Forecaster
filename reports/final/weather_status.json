@@ -1,0 +1,6 @@
+{
+  "status": "downloaded_but_join_blocked",
+  "reason": "Unconfirmed PJME time convention. No weather model is trained.",
+  "hours": 35832,
+  "required": "Document time_convention_evidence and explicitly confirm the convention."
+}

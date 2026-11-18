@@ -1,0 +1,286 @@
+[
+  {
+    "model": "ridge",
+    "candidate_id": 0,
+    "params": {
+      "alpha": 100.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.9333702841409357,
+    "fit_predict_seconds": 4.808420150002348
+  },
+  {
+    "model": "ridge",
+    "candidate_id": 1,
+    "params": {
+      "alpha": 1000.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.356372812301048,
+    "fit_predict_seconds": 4.106535900005838
+  },
+  {
+    "model": "ridge",
+    "candidate_id": 2,
+    "params": {
+      "alpha": 10.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.878709778304313,
+    "fit_predict_seconds": 4.11716960000922
+  },
+  {
+    "model": "ridge",
+    "candidate_id": 3,
+    "params": {
+      "alpha": 100000.0
+    },
+    "fourier_order": 2,
+    "mape_percent": 9.144029051644342,
+    "fit_predict_seconds": 4.192306600016309
+  },
+  {
+    "model": "random_forest",
+    "candidate_id": 0,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 12,
+      "min_samples_leaf": 4
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.038479086827789,
+    "fit_predict_seconds": 73.24208570000094
+  },
+  {
+    "model": "random_forest",
+    "candidate_id": 1,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 8,
+      "min_samples_leaf": 2
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.323042383238935,
+    "fit_predict_seconds": 51.34712910000235
+  },
+  {
+    "model": "random_forest",
+    "candidate_id": 2,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 20,
+      "min_samples_leaf": 8
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.044512377649819,
+    "fit_predict_seconds": 91.4525130999973
+  },
+  {
+    "model": "random_forest",
+    "candidate_id": 3,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 20,
+      "min_samples_leaf": 2
+    },
+    "fourier_order": 2,
+    "mape_percent": 4.005032093432841,
+    "fit_predict_seconds": 122.4523659000115
+  },
+  {
+    "model": "svr",
+    "candidate_id": 0,
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.05,
+      "gamma": "scale",
+      "cache_size": 128
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.432602435120517,
+    "fit_predict_seconds": 136.21568648333778
+  },
+  {
+    "model": "svr",
+    "candidate_id": 1,
+    "params": {
+      "C": 1,
+      "epsilon": 0.01,
+      "gamma": "scale",
+      "cache_size": 128
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.832867133205757,
+    "fit_predict_seconds": 80.2415525999968
+  },
+  {
+    "model": "svr",
+    "candidate_id": 2,
+    "params": {
+      "C": 10,
+      "epsilon": 0.1,
+      "gamma": 0.01,
+      "cache_size": 128
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.6373554700622273,
+    "fit_predict_seconds": 49.60772959998576
+  },
+  {
+    "model": "svr",
+    "candidate_id": 3,
+    "params": {
+      "C": 10,
+      "epsilon": 0.1,
+      "gamma": "scale",
+      "cache_size": 128
+    },
+    "fourier_order": 2,
+    "mape_percent": 4.687978611031442,
+    "fit_predict_seconds": 64.08360450001783
+  },
+  {
+    "model": "hist_gradient_boosting",
+    "candidate_id": 0,
+    "params": {
+      "max_iter": 150,
+      "learning_rate": 0.08,
+      "max_leaf_nodes": 31,
+      "l2_regularization": 1.0,
+      "early_stopping": false
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.8172733615496837,
+    "fit_predict_seconds": 20.923237983336247
+  },
+  {
+    "model": "hist_gradient_boosting",
+    "candidate_id": 1,
+    "params": {
+      "max_iter": 150,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "l2_regularization": 10,
+      "early_stopping": false
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.032632759931732,
+    "fit_predict_seconds": 21.857497999997577
+  },
+  {
+    "model": "hist_gradient_boosting",
+    "candidate_id": 2,
+    "params": {
+      "max_iter": 150,
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 0,
+      "early_stopping": false
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.888862326451579,
+    "fit_predict_seconds": 14.567203699989477
+  },
+  {
+    "model": "hist_gradient_boosting",
+    "candidate_id": 3,
+    "params": {
+      "max_iter": 150,
+      "learning_rate": 0.03,
+      "max_leaf_nodes": 31,
+      "l2_regularization": 0,
+      "early_stopping": false
+    },
+    "fourier_order": 2,
+    "mape_percent": 4.03191340739215,
+    "fit_predict_seconds": 22.888484900002368
+  },
+  {
+    "model": "ridge_365",
+    "candidate_id": 0,
+    "params": {
+      "alpha": 100.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.9956971606949727,
+    "fit_predict_seconds": 5.274611316664959
+  },
+  {
+    "model": "ridge_365",
+    "candidate_id": 1,
+    "params": {
+      "alpha": 1000.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.701561749906018,
+    "fit_predict_seconds": 5.106171999999788
+  },
+  {
+    "model": "ridge_365",
+    "candidate_id": 2,
+    "params": {
+      "alpha": 10.0
+    },
+    "fourier_order": 1,
+    "mape_percent": 3.8605376909705442,
+    "fit_predict_seconds": 5.0523025000002235
+  },
+  {
+    "model": "ridge_365",
+    "candidate_id": 3,
+    "params": {
+      "alpha": 100000.0
+    },
+    "fourier_order": 2,
+    "mape_percent": 11.543712981629763,
+    "fit_predict_seconds": 5.2246241999964695
+  },
+  {
+    "model": "random_forest_365",
+    "candidate_id": 0,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 12,
+      "min_samples_leaf": 4
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.1230693119991635,
+    "fit_predict_seconds": 34.88234484999945
+  },
+  {
+    "model": "random_forest_365",
+    "candidate_id": 1,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 8,
+      "min_samples_leaf": 2
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.323594409091347,
+    "fit_predict_seconds": 25.004627500020433
+  },
+  {
+    "model": "random_forest_365",
+    "candidate_id": 2,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 20,
+      "min_samples_leaf": 8
+    },
+    "fourier_order": 1,
+    "mape_percent": 4.163740948314359,
+    "fit_predict_seconds": 23.77415949999704
+  },
+  {
+    "model": "random_forest_365",
+    "candidate_id": 3,
+    "params": {
+      "n_estimators": 64,
+      "max_depth": 20,
+      "min_samples_leaf": 2
+    },
+    "fourier_order": 2,
+    "mape_percent": 4.1336267157574484,
+    "fit_predict_seconds": 33.38787149998825
+  }
+]
