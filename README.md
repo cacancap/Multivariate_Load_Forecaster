@@ -6,6 +6,8 @@
 2. Tìm vai trò của mình, việc đầu tiên và người cần trao đổi khi vướng. [Phiếu giao việc A–E](docs/PHIEU_GIAO_VIEC.md)
 3. Dùng bảng bàn giao và ví dụ mô phỏng để thử các phần song song. [Hợp đồng bàn giao](docs/HOP_DONG_BAN_GIAO.md)
 
+Link tải PJME, nguồn thời tiết quan sát NOAA và bộ dự phòng Tetouan, kèm tình trạng dữ liệu đã lưu. [Danh mục nguồn dữ liệu](docs/NGUON_DU_LIEU.md)
+
 ## Pipeline tham khảo hiện có
 
 Pipeline nghiên cứu Python/scikit-learn: thu thập có lưu vết → kiểm toán thời gian → đặc trưng nhân quả → mô hình trực tiếp từng horizon → kiểm định theo thời gian → chọn cấu hình → kiểm thử độc lập và báo cáo.

@@ -73,12 +73,12 @@ Khi gặp lỗi bàn giao, dùng ngay ba câu hỏi trong cập nhật hằng ng
 
 ### Chốt nguồn vào cuối ngày 3
 
-A chuẩn bị hai hướng ngay từ đầu; B–E phát triển bằng dữ liệu mẫu và giao diện chung trong thời gian này.
+A chuẩn bị hai hướng ngay từ đầu. B–E phát triển bằng dữ liệu mẫu và giao diện chung trong thời gian này. Link tải và tình trạng từng nguồn nằm trong [danh mục nguồn dữ liệu](NGUON_DU_LIEU.md).
 
 | Hướng | Điều kiện và cách dùng |
 |---|---|
-| PJME + quan sát thời tiết | Giữ làm nguồn chính nếu có bằng chứng đủ về timestamp/ý nghĩa khoảng đo, ghép được nguồn thời tiết hợp lệ, và báo được độ phủ. [NOAA ISD](https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database) là ứng viên quan sát cần kiểm tra trạm, trường dữ liệu và cờ chất lượng |
-| Tetouan — nguồn dự phòng | Nếu đến cuối ngày 3 PJME chưa đạt điều kiện, chuyển nguồn chính sang [Tetouan/UCI](https://archive.ics.uci.edu/dataset/849/power%2Bconsumption%2B). Nguồn có phụ tải ba vùng và thời tiết trong cùng bộ dữ liệu; dùng Zone 1 làm mục tiêu chính |
+| PJME + quan sát thời tiết | Giữ làm nguồn chính nếu có bằng chứng đủ về timestamp và ý nghĩa khoảng đo, ghép được nguồn thời tiết hợp lệ và báo được độ phủ. Kiểm tra trạm, trường dữ liệu và cờ chất lượng ở [NOAA Global Hourly](https://www.ncei.noaa.gov/access/search/data-search/global-hourly/) |
+| Tetouan — nguồn dự phòng | Nếu đến cuối ngày 3 PJME chưa đạt điều kiện, chuyển sang Tetouan. Nguồn có phụ tải ba vùng và thời tiết trong cùng bộ dữ liệu. Dùng Zone 1 làm mục tiêu chính. [Tetouan/UCI](https://archive.ics.uci.edu/dataset/849/power%2Bconsumption%2Bof%2Btetouan%2Bcity) |
 
 **Biên bản quyết định ngày 3 do A lập, D xác nhận**, gồm URL/phiên bản/checksum, khoảng thời gian, số quan sát, đơn vị gốc, tần suất, quy ước timestamp, giả định thời điểm có dữ liệu, quy tắc thiếu/trùng và độ phủ. Mục nào chưa xác nhận phải được ghi rõ. Không bật cờ “đã xác nhận thời gian” chỉ dựa vào việc mô hình chạy được.
 

@@ -16,7 +16,7 @@ Cung cấp dữ liệu đáng tin và giải thích được ý nghĩa mỗi dò
 
 ### Nhận từ ai
 
-- Nguồn PJME và nguồn quan sát thời tiết cần khảo sát; nguồn Tetouan dự phòng.
+- Tệp phụ tải PJME, nguồn thời tiết quan sát cần khảo sát và bộ Tetouan dự phòng. [Danh mục nguồn dữ liệu và link tải](NGUON_DU_LIEU.md)
 - Quy ước bảng quan sát và metadata từ D ở ngày 1–2.
 - Yêu cầu đặc trưng tối thiểu của B: phụ tải, ít nhất nhiệt độ, timestamp, thời điểm có sẵn và cờ chất lượng.
 
