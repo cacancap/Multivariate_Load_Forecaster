@@ -1,14 +1,16 @@
 # Dự báo phụ tải điện 24 giờ
 
-## Bắt đầu dành cho nhóm 5 người
+## Bắt đầu với Tetouan
 
-1. Đọc kịch bản dự báo lúc 12:00, sơ đồ quy trình và lịch ba tuần. [Kế hoạch nhóm](docs/KE_HOACH_NHOM_5_NGUOI.md)
-2. Tìm vai trò của mình, việc đầu tiên và người cần trao đổi khi vướng. [Phiếu giao việc A–E](docs/PHIEU_GIAO_VIEC.md)
-3. Dùng bảng bàn giao và ví dụ mô phỏng để thử các phần song song. [Hợp đồng bàn giao](docs/HOP_DONG_BAN_GIAO.md)
+Mỗi giờ, nhóm dự báo 24 giá trị phụ tải cho 24 giờ tiếp theo. Zone 1 là thực nghiệm chính. Zone 2 và Zone 3 dùng để so sánh.
 
-Link tải PJME, nguồn thời tiết quan sát NOAA và bộ dự phòng Tetouan, kèm tình trạng dữ liệu đã lưu. [Danh mục nguồn dữ liệu](docs/NGUON_DU_LIEU.md)
+1. Nhận vai trò A–E, xem lịch ba tuần và sản phẩm cần bàn giao. [Kế hoạch nhóm và phân công](docs/KE_HOACH_NHOM_5_NGUOI.md)
+2. Tải bộ dữ liệu Tetouan và tra ý nghĩa số đo. [Nguồn dữ liệu](docs/NGUON_DU_LIEU.md)
+3. Đối chiếu một ví dụ từ giờ phát hành đến kết quả chấm. [Quy ước bảng và ví dụ bàn giao](docs/HOP_DONG_BAN_GIAO.md)
 
-## Pipeline tham khảo hiện có
+Bắt đầu công việc nhóm từ nhánh `main`. Nhánh `complete-experiment` chứa mã chạy và kết quả Tetouan để tham khảo.
+
+## Pipeline PJME tham khảo trên main
 
 Pipeline nghiên cứu Python/scikit-learn: thu thập có lưu vết → kiểm toán thời gian → đặc trưng nhân quả → mô hình trực tiếp từng horizon → kiểm định theo thời gian → chọn cấu hình → kiểm thử độc lập và báo cáo.
 
