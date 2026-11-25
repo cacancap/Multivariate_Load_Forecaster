@@ -1,14 +1,12 @@
-# Dự báo phụ tải điện 24 giờ
+# IT3190 • Dự báo phụ tải Zone 1 tại Tetouan
 
-## Bắt đầu dành cho nhóm 5 người
+Mỗi giờ phát hành 24 dự báo cho giá trị Zone 1 ghi tại từng giờ kế tiếp. Chạy thử từ ZIP UCI tới bảng điểm bằng `python scripts/tetouan.py smoke`.
 
-1. Đọc kịch bản dự báo lúc 12:00, sơ đồ quy trình và lịch ba tuần. [Kế hoạch nhóm](docs/KE_HOACH_NHOM_5_NGUOI.md)
-2. Tìm vai trò của mình, việc đầu tiên và người cần trao đổi khi vướng. [Phiếu giao việc A–E](docs/PHIEU_GIAO_VIEC.md)
-3. Dùng bảng bàn giao và ví dụ mô phỏng để thử các phần song song. [Hợp đồng bàn giao](docs/HOP_DONG_BAN_GIAO.md)
+- [Cài đặt, chạy đầy đủ và demo](readme.txt)
+- [Báo cáo Tetouan (PDF)](reports/tetouan/IT3190_Tetouan.pdf) · [Bảng điểm](reports/tetouan/scores.csv) · [Tác động của thời tiết](reports/tetouan/weather_ablation.csv)
+- [Phân công A–E](docs/PHIEU_GIAO_VIEC.md) · [Nguồn dữ liệu](docs/NGUON_DU_LIEU.md) · [Quy ước bảng](docs/HOP_DONG_BAN_GIAO.md)
 
-Link tải PJME, nguồn thời tiết quan sát NOAA và bộ dự phòng Tetouan, kèm tình trạng dữ liệu đã lưu. [Danh mục nguồn dữ liệu](docs/NGUON_DU_LIEU.md)
-
-## Pipeline tham khảo hiện có
+## Phụ lục lịch sử • Pipeline PJME
 
 Pipeline nghiên cứu Python/scikit-learn: thu thập có lưu vết → kiểm toán thời gian → đặc trưng nhân quả → mô hình trực tiếp từng horizon → kiểm định theo thời gian → chọn cấu hình → kiểm thử độc lập và báo cáo.
 

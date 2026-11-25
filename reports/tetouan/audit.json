@@ -1,0 +1,96 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/849/power%2Bconsumption%2Bof%2Btetouan%2Bcity.zip",
+  "doi": "10.24432/C5B034",
+  "license": "CC BY 4.0",
+  "archive_sha256": "3c4bf684161180937043a9fb65701a83d44b740b0d42f0492b6e7aec57ddbbfe",
+  "csv_sha256": "ca8b2f30cf07dd872cb7f2aa45dac110ee38dbe5fc5910a6ff4bcc530dae3a40",
+  "csv_member": "Tetuan City power consumption.csv",
+  "raw_columns": [
+    "DateTime",
+    "Temperature",
+    "Humidity",
+    "Wind Speed",
+    "general diffuse flows",
+    "diffuse flows",
+    "Zone 1 Power Consumption",
+    "Zone 2  Power Consumption",
+    "Zone 3  Power Consumption"
+  ],
+  "rows": 52416,
+  "unique_timestamps": 52416,
+  "start": "2017-01-01 00:00:00",
+  "end": "2017-12-30 23:50:00",
+  "interval_counts_minutes": {
+    "10.0": 52415
+  },
+  "missing_ten_minute_timestamps": 0,
+  "off_grid_rows": 0,
+  "missing_hourly_timestamps": 0,
+  "duplicate_rows_quarantined": 0,
+  "hourly_grid_size": 8736,
+  "raw_null_counts": {
+    "DateTime": 0,
+    "Temperature": 0,
+    "Humidity": 0,
+    "Wind Speed": 0,
+    "general diffuse flows": 0,
+    "diffuse flows": 0,
+    "Zone 1 Power Consumption": 0,
+    "Zone 2  Power Consumption": 0,
+    "Zone 3  Power Consumption": 0
+  },
+  "value_stats": {
+    "load": {
+      "min": 13895.6962,
+      "max": 52204.39512,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    },
+    "temperature": {
+      "min": 3.247,
+      "max": 40.01,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    },
+    "humidity": {
+      "min": 11.34,
+      "max": 94.8,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    },
+    "wind_speed": {
+      "min": 0.05,
+      "max": 6.483,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    },
+    "general_diffuse": {
+      "min": 0.004,
+      "max": 1163.0,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    },
+    "diffuse": {
+      "min": 0.011,
+      "max": 936.0,
+      "negative": 0,
+      "zero": 0,
+      "missing_or_nonfinite": 0
+    }
+  },
+  "largest_abs_load_changes": {
+    "2017-04-20 12:10:00": 19344.67169,
+    "2017-08-30 02:00:00": 10445.99335,
+    "2017-01-14 23:10:00": 9211.13925,
+    "2017-04-20 12:30:00": 9201.119480000001,
+    "2017-05-31 11:30:00": 6710.557379999998
+  },
+  "unit": "source units (physical unit unconfirmed in UCI metadata)",
+  "time_basis": "naive source clock; UTC offset, DST handling and publication history unconfirmed",
+  "availability": "load at T assumed available; weather delayed one hour; no label imputation"
+}

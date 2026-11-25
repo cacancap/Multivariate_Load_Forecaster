@@ -1,0 +1,22 @@
+[
+  {
+    "stage": "read_samples_and_split",
+    "seconds": 0.09017940005287528,
+    "peak_rss_mb": 220.56640625
+  },
+  {
+    "stage": "train_and_predict",
+    "seconds": 266.095705499989,
+    "peak_rss_mb": 521.58203125
+  },
+  {
+    "stage": "score",
+    "seconds": 5.620118299964815,
+    "peak_rss_mb": 419.7734375
+  },
+  {
+    "stage": "verify",
+    "seconds": 5.1449514999985695,
+    "peak_rss_mb": 405.94921875
+  }
+]

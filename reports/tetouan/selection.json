@@ -1,0 +1,187 @@
+{
+  "inputs": {
+    "profile": "full",
+    "seed": 42,
+    "grid": {
+      "ridge": [
+        {
+          "alpha": 0.1
+        },
+        {
+          "alpha": 1.0
+        },
+        {
+          "alpha": 10.0
+        },
+        {
+          "alpha": 100.0
+        }
+      ],
+      "random_forest": [
+        {
+          "n_estimators": 24,
+          "min_samples_leaf": 2,
+          "max_depth": 8,
+          "max_features": 0.7,
+          "max_samples": 0.8
+        },
+        {
+          "n_estimators": 24,
+          "min_samples_leaf": 6,
+          "max_depth": 8,
+          "max_features": 0.7,
+          "max_samples": 0.8
+        },
+        {
+          "n_estimators": 24,
+          "min_samples_leaf": 2,
+          "max_depth": 14,
+          "max_features": 0.7,
+          "max_samples": 0.8
+        },
+        {
+          "n_estimators": 24,
+          "min_samples_leaf": 6,
+          "max_depth": 14,
+          "max_features": 0.7,
+          "max_samples": 0.8
+        }
+      ],
+      "svr": [
+        {
+          "C": 1.0,
+          "epsilon": 0.1,
+          "gamma": "scale"
+        },
+        {
+          "C": 3.0,
+          "epsilon": 0.05,
+          "gamma": 0.03
+        },
+        {
+          "C": 5.0,
+          "epsilon": 0.08,
+          "gamma": 0.05
+        }
+      ]
+    },
+    "columns": [
+      "load_now",
+      "load_lag1h",
+      "load_lag2h",
+      "load_lag24h",
+      "load_lag168h",
+      "load_mean24h",
+      "load_max24h",
+      "day_lag",
+      "week_lag",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos",
+      "year_sin",
+      "year_cos",
+      "temperature_lag1h",
+      "humidity_lag1h",
+      "wind_speed_lag1h",
+      "general_diffuse_lag1h",
+      "diffuse_lag1h"
+    ],
+    "base": [
+      "load_now",
+      "load_lag1h",
+      "load_lag2h",
+      "load_lag24h",
+      "load_lag168h",
+      "load_mean24h",
+      "load_max24h",
+      "day_lag",
+      "week_lag",
+      "hour_sin",
+      "hour_cos",
+      "weekday_sin",
+      "weekday_cos",
+      "year_sin",
+      "year_cos"
+    ],
+    "splits": {
+      "folds": [
+        {
+          "train_start": "2017-01-01T00:00:00",
+          "train_end": "2017-07-26T03:00:00",
+          "eval_start": "2017-07-27T04:00:00",
+          "eval_end": "2017-08-24T03:00:00"
+        },
+        {
+          "train_start": "2017-01-01T00:00:00",
+          "train_end": "2017-08-23T03:00:00",
+          "eval_start": "2017-08-24T04:00:00",
+          "eval_end": "2017-09-21T03:00:00"
+        },
+        {
+          "train_start": "2017-01-01T00:00:00",
+          "train_end": "2017-09-20T03:00:00",
+          "eval_start": "2017-09-21T04:00:00",
+          "eval_end": "2017-10-19T03:00:00"
+        }
+      ],
+      "test": {
+        "train_start": "2017-01-01T00:00:00",
+        "train_end": "2017-10-18T03:00:00",
+        "eval_start": "2017-10-19T04:00:00",
+        "eval_end": "2017-12-30T23:00:00"
+      }
+    },
+    "sklearn_version": "1.9.0",
+    "samples_sha256": "1055804b1f72e6806924d487a2d25f6fc23d391a3710f56f22cb343ac9cf064c",
+    "threads_rf": 4,
+    "threads_blas": 1
+  },
+  "seed": 42,
+  "params": {
+    "ridge": {
+      "alpha": 1.0
+    },
+    "random_forest": {
+      "n_estimators": 24,
+      "min_samples_leaf": 6,
+      "max_depth": 8,
+      "max_features": 0.7,
+      "max_samples": 0.8
+    },
+    "svr": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": "scale"
+    }
+  },
+  "best_model": "ridge",
+  "validation_mape": {
+    "ridge": 3.5793489408201262,
+    "random_forest": 3.538073161388473,
+    "svr": 4.229443557369354,
+    "ridge_no_weather": 3.5534583592451967
+  },
+  "ranking": [
+    {
+      "model": "ridge",
+      "seconds": 0.6753107000840828,
+      "mape": 3.5793489408201262
+    },
+    {
+      "model": "random_forest",
+      "seconds": 13.974766199942678,
+      "mape": 3.538073161388473
+    },
+    {
+      "model": "svr",
+      "seconds": 94.68699769990053,
+      "mape": 4.229443557369354
+    },
+    {
+      "model": "ridge_no_weather",
+      "seconds": 0.6105127999326214,
+      "mape": 3.5534583592451967
+    }
+  ]
+}

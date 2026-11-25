@@ -1,0 +1,7 @@
+[
+  {
+    "stage": "load_features_and_predict_24",
+    "seconds": 0.6063967000227422,
+    "peak_rss_mb": 187.62890625
+  }
+]

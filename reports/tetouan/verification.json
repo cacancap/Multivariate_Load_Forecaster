@@ -1,0 +1,19 @@
+{
+  "origin_time": "2017-10-19 12:00:00",
+  "target_time": "2017-10-19 13:00:00",
+  "load_at_origin": 36664.85777,
+  "weather_time": "2017-10-19 11:00:00",
+  "temperature": 20.02,
+  "y_true": 36551.42232,
+  "ridge_pred": 35864.4533224543,
+  "day_prior": 36677.46171,
+  "ridge_absolute_error": 686.9689975457004,
+  "baseline_absolute_error": 126.03939000000537,
+  "max_abs_reload_error": {
+    "ridge": 7.275957614183426e-12,
+    "random_forest": 1.4551915228366852e-11,
+    "svr": 1.5279510989785194e-10,
+    "ridge_no_weather": 3.637978807091713e-12
+  },
+  "future_mutation_checked_horizons": 24
+}

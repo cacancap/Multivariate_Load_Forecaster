@@ -1,0 +1,26 @@
+{
+  "base": [
+    "load_now",
+    "load_lag1h",
+    "load_lag2h",
+    "load_lag24h",
+    "load_lag168h",
+    "load_mean24h",
+    "load_max24h",
+    "day_lag",
+    "week_lag",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos",
+    "year_sin",
+    "year_cos"
+  ],
+  "weather": [
+    "temperature_lag1h",
+    "humidity_lag1h",
+    "wind_speed_lag1h",
+    "general_diffuse_lag1h",
+    "diffuse_lag1h"
+  ]
+}
