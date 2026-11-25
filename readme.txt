@@ -30,7 +30,7 @@ Chế độ này dùng lại tham số đã khóa và kiểm tra dấu vân tay 
   python scripts/tetouan.py train
   python scripts/tetouan.py score
 
-A tạo bảng quan sát. B tạo mẫu và danh sách cột. D chia tập rồi C huấn luyện cả hai biến thể Ridge và các mô hình so sánh. D chấm điểm và tạo đối chứng. Các lệnh split và train dùng cùng bộ chia. Sau train, score tạo bảng chấm. full tự thực hiện cả huấn luyện, chấm và kiểm chứng dự báo lại. Xem docs/PHIEU_GIAO_VIEC.md.
+A tạo bảng quan sát. B tạo mẫu và danh sách cột. D chia tập rồi C huấn luyện cả hai biến thể Ridge và các mô hình so sánh. D chấm điểm và tạo đối chứng. Các lệnh split và train dùng cùng bộ chia. Sau train, score tạo bảng chấm. full tự thực hiện cả huấn luyện, chấm và kiểm chứng dự báo lại. Xem docs/KE_HOACH_NHOM_5_NGUOI.md.
 
 5. Dự báo từ mô hình đã lưu, demo và lập lại báo cáo
   python scripts/tetouan.py predict --origin "2017-12-01 12:00"

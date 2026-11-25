@@ -9,4 +9,4 @@ Lúc 12:00 ngày 01/03/2017, nhiệt độ mới nhất được dùng là 16,86
 | Dự báo | Giữ các khóa thời gian và nhãn, thêm tập dữ liệu `split`, lượt kiểm định `fold`, tên mô hình `model` và dự báo `y_pred` |
 | Điểm | Đánh giá trên cùng cặp giờ. MAE và RMSE theo đơn vị nguồn, MAPE theo phần trăm, độ phủ bằng số cặp được chấm chia số cặp dự kiến |
 
-Người nhận và lệnh chạy cho từng bảng có trong [phiếu giao việc](PHIEU_GIAO_VIEC.md).
+Người nhận và lệnh chạy cho từng bảng có trong [kế hoạch và phân công](KE_HOACH_NHOM_5_NGUOI.md).

@@ -4,7 +4,7 @@ Mỗi giờ phát hành 24 dự báo cho giá trị Zone 1 ghi tại từng gi�
 
 - [Cài đặt, chạy đầy đủ và demo](readme.txt)
 - [Báo cáo Tetouan (PDF)](reports/tetouan/IT3190_Tetouan.pdf) · [Bảng điểm](reports/tetouan/scores.csv) · [Tác động của thời tiết](reports/tetouan/weather_ablation.csv)
-- [Phân công A–E](docs/PHIEU_GIAO_VIEC.md) · [Nguồn dữ liệu](docs/NGUON_DU_LIEU.md) · [Quy ước bảng](docs/HOP_DONG_BAN_GIAO.md)
+- [Phân công A–E](docs/KE_HOACH_NHOM_5_NGUOI.md) · [Nguồn dữ liệu](docs/NGUON_DU_LIEU.md) · [Quy ước bảng](docs/HOP_DONG_BAN_GIAO.md)
 
 ## Phụ lục lịch sử • Pipeline PJME
 
