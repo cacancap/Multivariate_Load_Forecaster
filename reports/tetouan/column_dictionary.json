@@ -1,0 +1,65 @@
+[
+  {
+    "column": "observation_time",
+    "source": "DateTime",
+    "type": "datetime64[ns]",
+    "role": "Chỉ số thời gian",
+    "unit": "Giờ gốc địa phương (10 phút/mốc, chưa xác nhận múi giờ/DST)"
+  },
+  {
+    "column": "zone1",
+    "source": "Zone 1 Power Consumption",
+    "type": "float64",
+    "role": "Phụ tải Zone 1 (thực nghiệm chính)",
+    "unit": "Đơn vị nguồn (metadata UCI chưa xác nhận kW/MW)"
+  },
+  {
+    "column": "zone2",
+    "source": "Zone 2  Power Consumption",
+    "type": "float64",
+    "role": "Phụ tải Zone 2 (mở rộng so sánh)",
+    "unit": "Đơn vị nguồn"
+  },
+  {
+    "column": "zone3",
+    "source": "Zone 3  Power Consumption",
+    "type": "float64",
+    "role": "Phụ tải Zone 3 (mở rộng so sánh)",
+    "unit": "Đơn vị nguồn"
+  },
+  {
+    "column": "temperature",
+    "source": "Temperature",
+    "type": "float64",
+    "role": "Nhiệt độ môi trường",
+    "unit": "°C (theo mô tả UCI)"
+  },
+  {
+    "column": "humidity",
+    "source": "Humidity",
+    "type": "float64",
+    "role": "Độ ẩm tương đối",
+    "unit": "%"
+  },
+  {
+    "column": "wind_speed",
+    "source": "Wind Speed",
+    "type": "float64",
+    "role": "Tốc độ gió",
+    "unit": "m/s (theo mô tả UCI)"
+  },
+  {
+    "column": "general_diffuse",
+    "source": "general diffuse flows",
+    "type": "float64",
+    "role": "Bức xạ khuếch tán chung",
+    "unit": "W/m² (theo mô tả UCI)"
+  },
+  {
+    "column": "diffuse",
+    "source": "diffuse flows",
+    "type": "float64",
+    "role": "Bức xạ khuếch tán",
+    "unit": "W/m² (theo mô tả UCI)"
+  }
+]

@@ -1,0 +1,12 @@
+model,candidate_id,params,mape,seconds
+ridge,0,"{""alpha"": 0.1}",4.889265337506149,0.03754679998382926
+ridge,1,"{""alpha"": 1.0}",4.8926852931179345,0.047668599989265203
+ridge,2,"{""alpha"": 10.0}",4.963976376127338,0.04838729999028146
+ridge,3,"{""alpha"": 100.0}",5.866994757619751,0.041531599999871105
+random_forest,0,"{""max_depth"": 8, ""max_features"": 0.7, ""max_samples"": 0.8, ""min_samples_leaf"": 2, ""n_estimators"": 24}",6.001772408283372,1.9087263999972492
+random_forest,1,"{""max_depth"": 8, ""max_features"": 0.7, ""max_samples"": 0.8, ""min_samples_leaf"": 6, ""n_estimators"": 24}",5.924976011723918,1.8571429000003263
+random_forest,2,"{""max_depth"": 14, ""max_features"": 0.7, ""max_samples"": 0.8, ""min_samples_leaf"": 2, ""n_estimators"": 24}",6.033605345308726,2.5843772999942303
+random_forest,3,"{""max_depth"": 14, ""max_features"": 0.7, ""max_samples"": 0.8, ""min_samples_leaf"": 6, ""n_estimators"": 24}",5.8660191332890905,2.159835099999327
+svr,0,"{""C"": 1.0, ""epsilon"": 0.1, ""gamma"": ""scale""}",11.691490907758457,6.346460399974603
+svr,1,"{""C"": 3.0, ""epsilon"": 0.05, ""gamma"": 0.03}",10.638875324145108,18.342619799950626
+svr,2,"{""C"": 5.0, ""epsilon"": 0.08, ""gamma"": 0.05}",11.78046817111567,16.372234000009485

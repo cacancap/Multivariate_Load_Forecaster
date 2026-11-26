@@ -1,0 +1,64 @@
+{
+  "dev_start": "2017-01-01 00:00:00",
+  "dev_end": "2017-10-18 03:00:00",
+  "hourly_rows_dev": 6964,
+  "peak_hour_mean": {
+    "zone1": 20,
+    "zone2": 20,
+    "zone3": 20
+  },
+  "trough_hour_mean": {
+    "zone1": 6,
+    "zone2": 6,
+    "zone3": 7
+  },
+  "weekday_vs_weekend": {
+    "zone1": {
+      "weekday_mean": 33334.31319136967,
+      "weekend_mean": 32237.218372580322,
+      "diff_pct": -3.291187709466258
+    },
+    "zone2": {
+      "weekday_mean": 20952.942725277553,
+      "weekend_mean": 19196.2287661245,
+      "diff_pct": -8.384091829897292
+    },
+    "zone3": {
+      "weekday_mean": 19197.170803878118,
+      "weekend_mean": 19486.641418565763,
+      "diff_pct": 1.5078816438366414
+    }
+  },
+  "temperature_correlation_zone1": {
+    "hour_14": 0.5769440455070634,
+    "hour_20": 0.686381892768629
+  },
+  "steepest_ramp_zone1": {
+    "timestamp": "2017-03-26 19:00:00",
+    "delta_load": 12279.82979,
+    "window_start": "2017-03-26 09:00:00",
+    "window_end": "2017-03-27 08:00:00"
+  },
+  "observations_and_hypotheses": [
+    {
+      "figure": "eda_hourly_zones.png",
+      "finding": "Cả 3 vùng có chu kỳ ngày rõ rệt: đáy vào rạng sáng ({'zone1': 6, 'zone2': 6, 'zone3': 7}) và đỉnh buổi tối ({'zone1': 20, 'zone2': 20, 'zone3': 20}).",
+      "hypothesis": "Đặc trưng trễ 24h (day_lag), 168h (week_lag) và mã hóa sin/cos giờ đích sẽ giải thích phần lớn biến thiên cơ sở."
+    },
+    {
+      "figure": "eda_weekday_weekend.png",
+      "finding": "Cuối tuần giảm tải trung bình -3.29% ở Zone 1 so với ngày thường.",
+      "hypothesis": "Biến chu kỳ thứ trong tuần (weekday_sin/cos) và week_lag cần thiết để tránh dự báo cao quá mức vào cuối tuần."
+    },
+    {
+      "figure": "eda_temp_load.png",
+      "finding": "Ở cùng khung 14:00 và 20:00, phụ tải tương quan dương rõ với nhiệt độ (r=0.577 và r=0.686).",
+      "hypothesis": "Thêm biến thời tiết trễ 1h giúp giảm sai số, đặc biệt khi nhiệt độ thay đổi mạnh theo ngày/mùa."
+    },
+    {
+      "figure": "eda_ramp_window.png",
+      "finding": "Tại 26/03/2017 19:00, tải Zone 1 tăng 12,279.8 đơn vị chỉ trong 1 giờ.",
+      "hypothesis": "Các mô hình tuyến tính/làm mịn có thể dự báo thiếu tại giờ tăng mạnh nếu thiếu đặc trưng xu hướng ngắn hạn (load_now - load_lag1h)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "zone": "zone2",
+  "verified_split": "test",
+  "verified_origin": "2017-11-24 07:00:00",
+  "future_mutation_invariant": true,
+  "future_mutation_checked_horizons": 24,
+  "max_abs_reload_error": {
+    "random_forest": 7.275957614183426e-12,
+    "ridge": 3.637978807091713e-12,
+    "ridge_no_weather": 3.637978807091713e-12,
+    "svr": 6.912159733474255e-11
+  },
+  "splits_train_end": "2017-10-18T03:00:00"
+}
